@@ -1,4 +1,5 @@
 function sayHello(person) {
+
     var decLiteral = 6;
     var hexLiteral = 0xf00d;
     // ES6 中的二进制表示法
@@ -7,6 +8,7 @@ function sayHello(person) {
     var octalLiteral = 484;
     var notANumber = NaN;
     var infinityNumber = Infinity;
+    
     return 'Hello, ' + person;
 }
 var user = 'zyp';

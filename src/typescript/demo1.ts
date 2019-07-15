@@ -1,4 +1,5 @@
 function sayHello(person: string) {
+
     let decLiteral: number = 6;
     let hexLiteral: number = 0xf00d;
     // ES6 中的二进制表示法
@@ -7,6 +8,7 @@ function sayHello(person: string) {
     let octalLiteral: number = 0o744;
     let notANumber: number = NaN;
     let infinityNumber: number = Infinity;  
+    
     return 'Hello, ' + person;
 }
 
